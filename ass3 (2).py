@@ -6,7 +6,7 @@ class Canvas(tk.Canvas):
         self.bind('<Button-1>', self.on_left_click)
 
     def on_left_click(self, event):
-        self.create_oval(event.x - 2, event.y - 2, event.x + 2, event.y + 2, fill='black')
+        self.create_oval(event.x - 2, event.y - 2, event.x + 2, event.y + 2, fill='orange')
 
 class MainWindow:
     def __init__(self):
